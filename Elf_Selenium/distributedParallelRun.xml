@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="4" name="Cars" parallel="classes">
+    <classes>
+		<class name="PracticeTestNG2.TC_Cars_020"/>
+      <class name="PracticeTestNG2.TC_Cars_021"/>
+      <class name="PracticeTestNG2.TC_Cars_022"/>
+      <class name="PracticeTestNG2.TC_Cars_023"/>
+           
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="4" name="Bikes" parallel="classes">
+    <classes>     
+      <class name="PracticeTestNG1.TC_bikes_010"/>
+      <class name="PracticeTestNG1.TC_bikes_011"/>
+      <class name="PracticeTestNG1.TC_bikes_012"/>
+      <class name="PracticeTestNG1.TC_bikes_013"/>    
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
